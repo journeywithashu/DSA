@@ -1,3 +1,4 @@
+package Array;
 public class MaxSubArray{
  public static void maxSubArraySum(int numbers[]){
           int currSum = 0;

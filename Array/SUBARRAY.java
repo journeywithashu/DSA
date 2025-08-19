@@ -1,3 +1,4 @@
+package Array;
 public class SUBARRAY{
      public static void printSubArray(int numbers[]){
           int ts = 0;

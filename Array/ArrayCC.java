@@ -1,3 +1,4 @@
+package Array;
 public class ArrayCC {
      public static int LinearSearch(int numbers[],int key){
           for(int i = 0;i<numbers.length;i++){

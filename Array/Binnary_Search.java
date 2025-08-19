@@ -1,3 +1,4 @@
+package Array;
 
 public class Binnary_Search {
      //binary search
