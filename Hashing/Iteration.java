@@ -13,7 +13,7 @@ public class Iteration {
          System.out.println(keys);
 
          for (String k : keys) {
-               System.out.println("key"+k+",value="+hm.get(k));   
+               System.out.println("key= "+k+",value="+hm.get(k));   
          }
      }
 }
