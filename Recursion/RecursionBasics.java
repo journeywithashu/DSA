@@ -26,10 +26,21 @@ public class RecursionBasics {
           int fn = n*fact(n-1);
           return fn;
      }
+  
+     //Problem 4
+      public static int calSum(int n){
+          if(n == 1){
+               return 1;
+          }
+          int Snm1 = calSum(n-1);
+          int sn = n + Snm1;
+          return sn;
+      }
+
      public static void main(String[] args) {
          int n = 5;
         // printDec(n);
          //printInc(n);
-         System.out.println(fact(n));
+         System.out.println(calSum(n));
      }
 }
